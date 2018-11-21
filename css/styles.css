@@ -107,6 +107,8 @@ p {
 .portfolio-title {
   text-align: center;
   margin: 50px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .items {
@@ -133,6 +135,18 @@ img.items:hover{
   line-height: 1.6em;
   padding-bottom: 40px;
 }
+
+/* ================================= 
+  Skills
+==================================== */
+.skill-titles,
+.skill-title {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 30px 0;
+	color: darkslategray;
+}
+
 
 /* ================================= 
   Foooter
@@ -239,6 +253,12 @@ img.items:hover{
     padding: 5px;
   }
 
+  .grid {
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+  }
+
   .footer-paragraph {
     width: 70%;
     margin: 0 auto;
@@ -275,7 +295,7 @@ img.items:hover{
   }
 
   .col {
-    width: 33%;
+    width: 33.333%;
     padding: 10px;
   }
 
