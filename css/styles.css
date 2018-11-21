@@ -5,6 +5,8 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 *, *:before, *:after {
@@ -20,7 +22,11 @@ body {
 a {
   text-decoration: none;
 }
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 h1, h2, h3, span {
 	font-family: 'Comfortaa', cursive;
@@ -74,7 +80,7 @@ p {
 
 .container {
   width: 90%;
-  margin: 0 auto;
+  margin:  0 auto;
 }
 
 .banner {
@@ -93,7 +99,6 @@ p {
 
 .profile-img {
   width: 80%;
-		
 }
 
 .summary {
@@ -118,8 +123,6 @@ p {
 
 img.items:hover{
 	box-shadow: 10px 10px 5px #aaaaaa;
-	
-	
 }
 
 .project-titles {
