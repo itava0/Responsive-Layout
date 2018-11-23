@@ -229,6 +229,10 @@ img.items:hover{
 
 @media (min-width: 768px) {
 
+  .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .main-nav {
     text-align: center;
   }
